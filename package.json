@@ -1,7 +1,16 @@
 {
-  "name": "my-package",
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "A simple Node.js server that responds with 'Hello World!'",
+  "main": "hello.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  }
+    "start": "node hello.js"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "server"
+  ],
+  "author": "Simranatginie",
+  "license": "MIT"
 }
